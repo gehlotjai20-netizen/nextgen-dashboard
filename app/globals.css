@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Inter, sans-serif;
+}
+
+.card-bg {
+  background: radial-gradient(
+    circle at top left,
+    rgba(255, 255, 255, 0.05),
+    transparent
+  );
+}
