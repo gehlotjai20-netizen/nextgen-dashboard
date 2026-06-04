@@ -1,56 +1,43 @@
-# NextGen Learning Dashboard
+# NextGen Learning Dashboard 🚀
 
-## Overview
+## 📌 Overview
+A modern and interactive learning dashboard built using Next.js, TypeScript, Tailwind CSS, Supabase, and Framer Motion.
 
-A futuristic student dashboard built with Next.js App Router, TypeScript, Tailwind CSS, Supabase, Framer Motion, and Lucide React.
+It allows students to track courses, progress, and daily learning activity in a clean and responsive interface.
 
-## Features
+---
 
-* Dark Mode UI
-* Hero Tile with Learning Streak
-* Dynamic Course Cards from Supabase
-* Activity Tile
-* Animated Progress Bars
-* Responsive Layout
-* Loading and Error States
-* Framer Motion Animations
+## 🔗 Live Demo
+👉 https://vercel.com/jaishnu-gehlot-s-projects/nextgen-dashboard/CrcypNrJTVhmK5AQCaHyGJSYecY5
 
-## Tech Stack
+---
 
-* Next.js (App Router)
-* TypeScript
-* Tailwind CSS
-* Supabase
-* Framer Motion
-* Lucide React
+## ✨ Features
+- Dark Mode UI
+- Bento/Grid Dashboard Layout
+- Hero Section with Learning Streak
+- Dynamic Course Cards from Supabase
+- Activity Tracking Panel
+- Loading & Error States
+- Smooth Animations using Framer Motion
+- Fully Responsive Design
 
-## Environment Variables
+---
+
+## 🛠️ Tech Stack
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- Supabase (Backend)
+- Framer Motion
+- Lucide React Icons
+
+---
+
+## 🔐 Environment Variables
 
 Create a `.env.local` file:
 
-NEXT_PUBLIC_SUPABASE_URL=
-
-NEXT_PUBLIC_SUPABASE_ANON_KEY=
-
-## Installation
-
-```bash
-npm install
-npm run dev
-```
-
-## Architecture
-
-* Server Components are used to fetch course data from Supabase.
-* Reusable components are used for Sidebar, Hero, Course, and Activity sections.
-* Tailwind CSS is used for styling.
-* Framer Motion is used for animations and hover interactions.
-
-## Deployment
-
-The project can be deployed on Vercel.
-
-Required environment variables:
-
-* NEXT_PUBLIC_SUPABASE_URL
-* NEXT_PUBLIC_SUPABASE_ANON_KEY
+```env
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
