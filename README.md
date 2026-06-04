@@ -8,7 +8,7 @@ It allows students to track courses, progress, and daily learning activity in a 
 ---
 
 ## 🔗 Live Demo
-👉 https://vercel.com/jaishnu-gehlot-s-projects/nextgen-dashboard/CrcypNrJTVhmK5AQCaHyGJSYecY5
+👉 https://nextgen-dashboard-orcin.vercel.app/
 
 ---
 
